@@ -1,0 +1,37 @@
+gui:
+  title: "📅 Điểm danh tháng %month% năm %year%"
+  size: 54
+
+items:
+  default:
+    material: GRAY_DYE
+    name: "&7Ngày %day%"
+    model-data: 1001
+  checked:
+    material: LIME_DYE
+    name: "&aĐã điểm danh: Ngày %day%"
+    model-data: 1002
+  missed:
+    material: RED_DYE
+    name: "&cBỏ lỡ: Ngày %day%"
+    model-data: 1003
+
+messages:
+  already_checked: "&cBạn đã điểm danh hôm nay rồi!"
+  notify_unchecked: "&eBạn chưa điểm danh hôm nay! Dùng lệnh &a/diemdanh &eđể nhận thưởng."
+  checked_success: "&aĐiểm danh thành công! Nhận thưởng: %reward%"
+  missed_day: "&cBạn đã bỏ lỡ ngày này."
+  special_reward: "&6Chuỗi 7 ngày hoàn tất! Nhận thưởng đặc biệt!"
+  bypass_success: "&aBạn đã điểm danh lại thành công ngày %day%."
+  future_day: "&eNgày này chưa đến, không thể điểm danh trước!"
+  bypass:
+    enabled: true
+    cost: 500
+    message_not_enough: "&cKhông đủ tiền để điểm danh lại. Cần %cost% xu."
+    message_paid: "&aĐã trừ %cost% xu để điểm danh lại ngày %day%."
+
+bypass:
+  enabled: true
+  cost: 500
+  message_not_enough: "&cBạn cần %cost% xu để điểm danh lại."
+  message_paid: "&aĐã trừ %cost% xu để điểm danh lại ngày %day%."

@@ -1,0 +1,4 @@
+message: "&aChúc mừng! Bạn đã nhận phần thưởng chuỗi 7 ngày liên tiếp!"
+commands:
+  - "eco give %player% 500"
+  - "give %player% diamond 3"

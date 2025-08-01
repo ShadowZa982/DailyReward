@@ -1,0 +1,10 @@
+rewards:
+  group1:  # Ngày 1 - 10
+    - "eco give %player% 100"
+    - "give %player% diamond 1"
+  group2:  # Ngày 11 - 20
+    - "eco give %player% 200"
+    - "give %player% emerald 2"
+  group3:  # Ngày 21 - 31
+    - "eco give %player% 300"
+    - "give %player% netherite_ingot 1"
